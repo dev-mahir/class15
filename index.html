@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Assignment no. 14</title>
+</head>
+
+<body>
+  
+
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="an_clock">
+          <div class="hour"></div>
+          <div class="min"></div>
+          <div class="sec"></div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="clock">
+          <div class="h"></div>
+          <div class="m"></div>
+          <div class="s"></div>
+        </div>
+      </div>
+
+      </div>
+    </div>
+
+
+<hr>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="cal mt-5">
+          <div class="display">
+            <div class="display-top">0</div>
+            <div class="display-bottom"></div>
+          </div>
+          <div class="buttons">
+            <button class="allclear" onclick="allClear()">AC</button>
+            <button onclick="back()">C</button>
+            <button onclick="valGet('(')">(</button>
+            <button onclick="valGet(')')">)</button>
+            <button onclick="valGet(7)">7</button>
+            <button onclick="valGet(8)">8</button>
+            <button onclick="valGet(9)">9</button>
+            <button onclick="valGet('/')">/</button>
+            <button onclick="valGet(4)">4</button>
+            <button onclick="valGet(5)">5</button>
+            <button onclick="valGet(6)">6</button>
+            <button onclick="valGet('*')">*</button>
+            <button onclick="valGet(1)">1</button>
+            <button onclick="valGet(2)">2</button>
+            <button onclick="valGet(3)">3</button>
+            <button onclick="valGet('-')">-</button>
+            <button onclick="valGet(0)">0</button>
+            <button onclick="valGet('.')">.</button>
+            <button onclick="result()">=</button>
+            <button class="plus_btn" onclick="valGet('+')">+</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="card mt-5">
+          <div class="card-body">
+            <div class="form">
+              <input type="checkbox" class="skill" id="html" value="html"><label for="html">HTML</label> <br>
+              <input type="checkbox" class="skill" id="Wordpress" value="Wordpress"> <label
+                for="Wordpress">Wordpress</label> <br>
+              <input type="checkbox" class="skill" id="Python" value="Python"> <label for="Python">Python</label> <br>
+              <input type="checkbox" class="skill" id="Java" value="Java"> <label for="Java">Java</label> <br>
+              <input type="checkbox" class="skill" id="Laravel" value="Laravel"> <label for="Laravel">Laravel</label>
+              <br>
+              <input type="checkbox" class="skill" id="Jango" value="Jango"> <label for="Jango">Jango</label> <br>
+            </div>
+            <ul class="list-group mt-4 show">
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="./functions.js"></script>
+  <script src="./app.js"></script>
+</body>
+
+</html>
